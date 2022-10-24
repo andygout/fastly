@@ -1,36 +1,82 @@
 {
-  "author": "Andrew Sliwinski <andrew@diy.org>",
-  "contributors": [
-    "Andy Hume",
-    "Jeremiah Lee",
-    "Isaac Z. Schlueter",
-    "Benjamin E. Coe",
-    "Matt Chadburn"
+  "_from": "github:financial-times/fastly#gets-qs",
+  "_id": "fastly@2.5.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/fastly",
+  "_phantomChildren": {
+    "ms": "2.0.0"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "fastly@github:financial-times/fastly#gets-qs",
+    "name": "fastly",
+    "escapedName": "fastly",
+    "rawSpec": "github:financial-times/fastly#gets-qs",
+    "saveSpec": "github:financial-times/fastly#gets-qs",
+    "fetchSpec": null,
+    "gitCommittish": "gets-qs"
+  },
+  "_requiredBy": [
+    "/"
   ],
-  "name": "fastly",
+  "_resolved": "github:financial-times/fastly#e32a3f7cbe59880413a700ff8a32165310bcdd57",
+  "_spec": "fastly@github:financial-times/fastly#gets-qs",
+  "_where": "/home/circleci/project/build",
+  "author": {
+    "name": "Andrew Sliwinski",
+    "email": "andrew@diy.org"
+  },
+  "bugs": {
+    "url": "https://github.com/thisandagain/fastly/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Andy Hume"
+    },
+    {
+      "name": "Jeremiah Lee"
+    },
+    {
+      "name": "Isaac Z. Schlueter"
+    },
+    {
+      "name": "Benjamin E. Coe"
+    },
+    {
+      "name": "Matt Chadburn"
+    }
+  ],
+  "dependencies": {
+    "debug": "^1.0.4",
+    "q": "^1.0.1",
+    "request": "^2.87.0"
+  },
+  "deprecated": false,
   "description": "Fastly API client for Node.js",
-  "keywords": "fastly, api, client",
-  "version": "2.1.0",
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "tap": "~0.3.3"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
   "homepage": "https://github.com/thisandagain/fastly",
+  "keywords": [
+    "fastly",
+    "api",
+    "client"
+  ],
+  "main": "lib/index.js",
+  "name": "fastly",
+  "optionalDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/thisandagain/fastly.git"
   },
-  "main": "lib/index.js",
   "scripts": {
     "test": "make test"
   },
-  "dependencies": {
-    "debug": "^1.0.4",
-    "q": "^1.0.1",
-    "request": "~2.12.0"
-  },
-  "devDependencies": {
-    "jshint": "~2.5.0",
-    "tap": "~0.3.3"
-  },
-  "optionalDependencies": {},
-  "engines": {
-    "node": ">=0.8"
-  }
+  "version": "2.5.0"
 }

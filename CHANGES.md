@@ -19,3 +19,4 @@ This also makes is easier to create convenience methods,
     fastly.cloneLatestVersion();
     fastly.cloneActiveVersion();
     ...
+
